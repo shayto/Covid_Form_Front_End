@@ -1,0 +1,61 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.form {
+    padding: 1rem;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea {
+    display: block;
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+.actions {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: deepskyblue;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid rgb(131, 153, 167);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: darkblue;
+    border-color: deepskyblue;
+}
+
+.card input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
